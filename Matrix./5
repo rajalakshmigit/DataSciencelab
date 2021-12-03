@@ -1,0 +1,31 @@
+program no 5:python code to demonstrate matrix addition,subtraction,multiplication
+
+import numpy as np
+arr=np.array([[2,3],[4,5]])
+arra=np.array([[3,4],[6,7]])
+print("first matrix:\n",arr)
+print("second matrix:\n",arra)
+print("additon")
+print(np.add(arr,arra))
+print("subtraction")
+print(np.subtract(arr,arra))
+print("division")
+print(np.divide(arr,arra))
+
+output
+
+first matrix:
+ [[2 3]
+ [4 5]]
+second matrix:
+ [[3 4]
+ [6 7]]
+additon
+[[ 5  7]
+ [10 12]]
+subtraction
+[[-1 -1]
+ [-2 -2]]
+division
+[[0.66666667 0.75      ]
+ [0.66666667 0.71428571]]
