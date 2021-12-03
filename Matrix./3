@@ -1,1 +1,12 @@
+program no3:find the sum of values in a matrix
+import numpy as np
+matr=np.array([[2,3],[5,6]])
+print("matrix is:\n",matr)
+total=np.sum(matr)
+print("sum is:",total)
 
+output
+matrix is:
+ [[2 3]
+ [5 6]]
+sum is: 16
