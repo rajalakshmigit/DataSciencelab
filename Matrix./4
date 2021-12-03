@@ -1,0 +1,15 @@
+program no 4:calculate the sum of diagonal elements of a numpy array
+
+import numpy as np
+arr=np.array([[55,47,67],[23,30,70],[10,20,40]])
+print("matrix is:\n",arr)
+trace=np.trace(arr)
+print("sum of diagonal is", trace)
+
+output
+
+matrix is:
+ [[55 47 67]
+ [23 30 70]
+ [10 20 40]]
+sum of diagonal is 125
